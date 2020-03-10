@@ -46,7 +46,22 @@ function App() {
               <span className="bz-section-title bz-title-oddities">Oddities</span>
             </a>
             <div class="uk-accordion-content">
-              
+              <table class="uk-table uk-table-divider bz-table">
+                <thead>
+                  <tr>
+                    <th>Item Name</th>
+                    <th>Buy Price</th>
+                    <th>Sell Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="bz-item-stockofstonks">Stock of Stonks</td>
+                    <td className="bz-item-price">28,898 coins</td>
+                    <td className="bz-item-price">17,381 coins</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </li>
         </ul>
