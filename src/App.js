@@ -12,39 +12,41 @@ function App() {
       <div className="bz-body uk-container uk-margin-top uk-margin-bottom">
         <ul uk-accordion="collapsible: false">
           <li>
-            <a class="uk-accordion-title" href="#">
+            <span class="uk-accordion-title" href="#">
               <span className="bz-section-title bz-title-farming">Farming</span>
-            </a>
+            </span>
             <div class="uk-accordion-content">
               <p>COMING SOON!</p>
             </div>
           </li>
           <li>
-            <a class="uk-accordion-title" href="#">
-              <span className="bz-section-title bz-title-mining">Mining</span></a>
+            <span class="uk-accordion-title" href="#">
+              <span className="bz-section-title bz-title-mining">Mining</span>
+            </span>
             <div class="uk-accordion-content">
               <p>COMING SOON!</p>
             </div>
           </li>
           <li>
-            <a class="uk-accordion-title" href="#">
-            <span className="bz-section-title bz-title-combat">Combat</span></a>
+            <span class="uk-accordion-title">
+              <span className="bz-section-title bz-title-combat">Combat</span>
+            </span>
             <div class="uk-accordion-content">
               <p>COMING SOON!</p>
             </div>
           </li>
           <li>
-            <a class="uk-accordion-title" href="#">
+            <span class="uk-accordion-title" href="#">
               <span className="bz-section-title bz-title-woodfish">Woods & Fishes</span>
-            </a>
+            </span>
             <div class="uk-accordion-content">
               <p>COMING SOON!</p>
             </div>
           </li>
           <li class="uk-open">
-            <a class="uk-accordion-title" href="#">              
+            <span class="uk-accordion-title" href="#">              
               <span className="bz-section-title bz-title-oddities">Oddities</span>
-            </a>
+            </span>
             <div class="uk-accordion-content">
               <table class="uk-table uk-table-divider bz-table">
                 <thead>
