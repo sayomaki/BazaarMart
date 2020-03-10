@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'MinecraftiaRegular';
+      src: url('https://fontlibrary.org/assets/fonts/minecraftia/71962a7e3d4a70435c030466a12f1d63/bf3f245b7cd53caea0cb07d265a64adc/MinecraftiaRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+    }
+
+/* The following rules are deprecated. */ 
+
+@font-face {
+  font-family: 'Minecraftia';
+      src: url('https://fontlibrary.org/assets/fonts/minecraftia/71962a7e3d4a70435c030466a12f1d63/bf3f245b7cd53caea0cb07d265a64adc/MinecraftiaRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+    }
