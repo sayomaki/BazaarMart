@@ -15,7 +15,7 @@ function App() {
                 <a className="uk-button uk-button-text bz-github" href="https://github.com/willi123yao/BazaarMart">Github</a>
               </div>
               <div className="uk-navbar-item">
-                <a className="uk-button uk-button-text bz-github" href="https://github.com/willi123yao/BazaarMart/issues">Bug?</a>
+                <a className="uk-button uk-button-text bz-github" href="https://github.com/willi123yao/BazaarMart/issues">Bugs?</a>
               </div>
             </div>
           </nav>
