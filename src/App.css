@@ -29,3 +29,47 @@
   transition: .3s ease-in-out;
   transition-property: right;
 }
+
+.bz-footer {
+  background-color: #1e87f0;
+  color: white;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.bz-author {
+  color: white;
+}
+
+.bz-author:hover {
+  color: white;
+}
+
+.bz-section-title {
+  display: inline-block;
+  padding: 8px;
+  background-color: #00002A;
+  border: 2px solid #0000AA;
+  border-radius: 5px;
+  font-family: Minecraftia;
+}
+
+.bz-title-farming {
+  color: #FFFF55;
+}
+
+.bz-title-mining {
+  color: #55FFFF;
+}
+
+.bz-title-combat {
+  color: #FF5555;
+}
+
+.bz-title-woodfish {
+  color: #FFAA00;
+}
+
+.bz-title-oddities {
+  color: #FF55FF;
+}
