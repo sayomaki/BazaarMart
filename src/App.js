@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './Font.css';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           </nav>
         </div>
       </div>
+
+      <Footer/>
     </div>
   );
 }
