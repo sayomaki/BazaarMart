@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+.bz-navbar {
+  background: linear-gradient(to left, #28a5f5, #1e87f0);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bz-logo {
+  color: white;
+  user-select: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bz-logo:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bz-github {
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bz-github:hover {
+  color: white;
+}
+
+.bz-github::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  height: 1px;
+  background-color: currentColor;
+  transition: .3s ease-in-out;
+  transition-property: right;
 }

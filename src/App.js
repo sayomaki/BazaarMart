@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="bz-navbar">
+        <div className="uk-container">
+          <nav className="uk-navbar-transparent uk-navbar-container uk-margin" uk-navbar="true">
+            <div className="uk-navbar-left">
+              <span className="uk-navbar-item uk-logo bz-logo">Bazaar Market</span>
+            </div>
+            <div className="uk-navbar-right">
+              <div className="uk-navbar-item">
+                <a className="uk-button uk-button-text bz-github" href="https://github.com/willi123yao/BazaarMart">Github</a>
+              </div>
+              <div className="uk-navbar-item">
+                <a className="uk-button uk-button-text bz-github" href="https://github.com/willi123yao/BazaarMart/issues">Bug?</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
     </div>
   );
 }
