@@ -1,3 +1,7 @@
+body {
+  background: #000;
+}
+
 .bz-navbar {
   width: 100%;
   top: 0;
@@ -35,9 +39,10 @@
 
 .bz-body {
   margin-top: 80px !important;
+  margin-bottom: 25px !important;
   padding-top: 25px;
-  padding-bottom: 95px;
-  max-height: 100vh;
+  padding-bottom: 25px;
+  min-height: 100vh;
 }
 
 .bz-footer {
