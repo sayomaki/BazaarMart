@@ -73,6 +73,76 @@ class Farming extends React.Component {
                 <td className="bz-item-price">{this.props.items["ENCHANTED_PUMPKIN"] ? this.props.items["ENCHANTED_PUMPKIN"].sellPrice : 'N/A'}</td>
               </tr>
               <tr>
+                <td className="bz-color-farming">Melon</td>
+                <td className="bz-item-price">{this.props.items["MELON"] ? this.props.items["MELON"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["MELON"] ? this.props.items["MELON"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Enchanted Melon</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_MELON"] ? this.props.items["ENCHANTED_MELON"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_MELON"] ? this.props.items["ENCHANTED_MELON"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Enchanted Glistering Melon</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_GLISTERING_MELON"] ? this.props.items["ENCHANTED_GLISTERING_MELON"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_GLISTERING_MELON"] ? this.props.items["ENCHANTED_GLISTERING_MELON"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Enchanted Melon Block</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_MELON_BLOCK"] ? this.props.items["ENCHANTED_MELON_BLOCK"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_MELON_BLOCK"] ? this.props.items["ENCHANTED_MELON_BLOCK"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Seeds</td>
+                <td className="bz-item-price">{this.props.items["SEEDS"] ? this.props.items["SEEDS"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["SEEDS"] ? this.props.items["SEEDS"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Red Mushroom</td>
+                <td className="bz-item-price">{this.props.items["RED_MUSHROOM"] ? this.props.items["RED_MUSHROOM"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["RED_MUSHROOM"] ? this.props.items["RED_MUSHROOM"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Red Mushroom Block</td>
+                <td className="bz-item-price">{this.props.items["HUGE_MUSHROOM_2"] ? this.props.items["HUGE_MUSHROOM_2"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["HUGE_MUSHROOM_2"] ? this.props.items["HUGE_MUSHROOM_2"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Enchanted Red Mushroom Block</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_HUGE_MUSHROOM_2"] ? this.props.items["ENCHANTED_HUGE_MUSHROOM_2"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_HUGE_MUSHROOM_2"] ? this.props.items["ENCHANTED_HUGE_MUSHROOM_2"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Brown Mushroom</td>
+                <td className="bz-item-price">{this.props.items["BROWN_MUSHROOM"] ? this.props.items["BROWN_MUSHROOM"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["BROWN_MUSHROOM"] ? this.props.items["BROWN_MUSHROOM"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Brown Mushroom Block</td>
+                <td className="bz-item-price">{this.props.items["HUGE_MUSHROOM_1"] ? this.props.items["HUGE_MUSHROOM_1"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["HUGE_MUSHROOM_1"] ? this.props.items["HUGE_MUSHROOM_1"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Enchanted Brown Mushroom Block</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_HUGE_MUSHROOM_1"] ? this.props.items["ENCHANTED_HUGE_MUSHROOM_1"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_HUGE_MUSHROOM_1"] ? this.props.items["ENCHANTED_HUGE_MUSHROOM_1"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Cocoa Beans</td>
+                <td className="bz-item-price">{this.props.items["COCOA_BEANS"] ? this.props.items["COCOA_BEANS"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["COCOA_BEANS"] ? this.props.items["COCOA_BEANS"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Enchanted Cocoa Bean</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_COCOA"] ? this.props.items["ENCHANTED_COCOA"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_COCOA"] ? this.props.items["ENCHANTED_COCOA"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Enchanted Cookie</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_COOKIE"] ? this.props.items["ENCHANTED_COOKIE"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_COOKIE"] ? this.props.items["ENCHANTED_COOKIE"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
                 <td className="bz-color-farming">Sugar Cane</td>
                 <td className="bz-item-price">{this.props.items["SUGAR_CANE"] ? this.props.items["SUGAR_CANE"].buyPrice : 'N/A'}</td>
                 <td className="bz-item-price">{this.props.items["SUGAR_CANE"] ? this.props.items["SUGAR_CANE"].sellPrice : 'N/A'}</td>
