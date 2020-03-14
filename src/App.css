@@ -55,23 +55,23 @@
   cursor: pointer;
 }
 
-.bz-title-farming {
+.bz-color-farming {
   color: #FFFF55;
 }
 
-.bz-title-mining {
+.bz-color-mining {
   color: #55FFFF;
 }
 
-.bz-title-combat {
+.bz-color-combat {
   color: #FF5555;
 }
 
-.bz-title-woodfish {
+.bz-color-woodfish {
   color: #FFAA00;
 }
 
-.bz-title-oddities {
+.bz-color-oddities {
   color: #FF55FF;
 }
 
@@ -81,8 +81,4 @@
 
 .bz-item-price {
   color: #FFAA00;
-}
-
-.bz-item-stockofstonks {
-  color: #FF55FF;
 }
