@@ -5,6 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Farming from './Farming';
 import Mining from './Mining';
+import Combat from './Combat';
 
 const URL = "";
 
@@ -38,14 +39,7 @@ class App extends React.Component {
           <ul uk-accordion="collapsible: false">
             <Farming items={this.state.items}/>
             <Mining items={this.state.items}/>
-            <li>
-              <span className="uk-accordion-title">
-                <span className="bz-section-title bz-color-combat">Combat</span>
-              </span>
-              <div className="uk-accordion-content">
-                <p>COMING SOON!</p>
-              </div>
-            </li>
+            <Combat items={this.state.items}/>
             <li>
               <span className="uk-accordion-title" href="#">
                 <span className="bz-section-title bz-color-woodfish">Woods & Fishes</span>
