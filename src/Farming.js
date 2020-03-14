@@ -3,7 +3,7 @@ import React from 'react';
 class Farming extends React.Component {
   render () {
     return (
-      <li>
+      <li className="uk-open">
         <span className="uk-accordion-title" href="#">
           <span className="bz-section-title bz-color-farming">Farming</span>
         </span>

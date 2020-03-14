@@ -3,6 +3,7 @@ import './App.css';
 import './Font.css';
 import Header from './Header';
 import Footer from './Footer';
+import Farming from './Farming';
 
 const URL = "";
 
@@ -59,7 +60,7 @@ class App extends React.Component {
                 <p>COMING SOON!</p>
               </div>
             </li>
-            <li className="uk-open">
+            <li>
               <span className="uk-accordion-title" href="#">              
                 <span className="bz-section-title bz-color-oddities">Oddities</span>
               </span>
