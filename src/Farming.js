@@ -29,8 +29,8 @@ class Farming extends React.Component {
               </tr>
               <tr>
                 <td className="bz-color-farming">Carrot</td>
-                <td className="bz-item-price">{this.props.items["CARROT"] ? this.props.items["CARROT"].buyPrice : 'N/A'}</td>
-                <td className="bz-item-price">{this.props.items["CARROT"] ? this.props.items["CARROT"].sellPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["CARROT_ITEM"] ? this.props.items["CARROT_ITEM"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["CARROT_ITEM"] ? this.props.items["CARROT_ITEM"].sellPrice : 'N/A'}</td>
               </tr>
               <tr>
                 <td className="bz-color-farming">Enchanted Carrot</td>
@@ -49,8 +49,8 @@ class Farming extends React.Component {
               </tr>
               <tr>
                 <td className="bz-color-farming">Potato</td>
-                <td className="bz-item-price">{this.props.items["POTATO"] ? this.props.items["POTATO"].buyPrice : 'N/A'}</td>
-                <td className="bz-item-price">{this.props.items["POTATO"] ? this.props.items["POTATO"].sellPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["POTATO_ITEM"] ? this.props.items["POTATO_ITEM"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["POTATO_ITEM"] ? this.props.items["POTATO_ITEM"].sellPrice : 'N/A'}</td>
               </tr>
               <tr>
                 <td className="bz-color-farming">Enchanted Potato</td>
