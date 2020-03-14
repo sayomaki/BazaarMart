@@ -15,13 +15,14 @@ class App extends React.Component {
     this.runRoutine();
   }
 
-  runRoutine () {
-    this.routine = setInterval(async () => {
-      const item = "STOCK_OF_STONKS";
-      const res = await fetch(URL + '/bazaar/' + item, {method: 'POST'});
-      const data = await res.json();
-      
-      this.setState({items: {...this.state.items, "STOCK_OF_STONKS": data}});
+  async runRoutine () {
+    const item = "STOCK_OF_STONKS";
+    const res = await fetch(URL + '/bazaar/' + item, {method: 'POST'});
+    const data = await res.json();
+    
+    this.setState({items: {...this.state.items, "STOCK_OF_STONKS": data}});
+    setTimeout(() => {
+      this.runRoutine();
     }, 30000);
   }
 
