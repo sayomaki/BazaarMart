@@ -37,7 +37,7 @@ class App extends React.Component {
             <Farming items={this.state.items}/>
             <li>
               <span className="uk-accordion-title" href="#">
-                <span className="bz-section-title bz-title-mining">Mining</span>
+                <span className="bz-section-title bz-color-mining">Mining</span>
               </span>
               <div className="uk-accordion-content">
                 <p>COMING SOON!</p>
@@ -45,7 +45,7 @@ class App extends React.Component {
             </li>
             <li>
               <span className="uk-accordion-title">
-                <span className="bz-section-title bz-title-combat">Combat</span>
+                <span className="bz-section-title bz-color-combat">Combat</span>
               </span>
               <div className="uk-accordion-content">
                 <p>COMING SOON!</p>
@@ -53,7 +53,7 @@ class App extends React.Component {
             </li>
             <li>
               <span className="uk-accordion-title" href="#">
-                <span className="bz-section-title bz-title-woodfish">Woods & Fishes</span>
+                <span className="bz-section-title bz-color-woodfish">Woods & Fishes</span>
               </span>
               <div className="uk-accordion-content">
                 <p>COMING SOON!</p>
@@ -61,7 +61,7 @@ class App extends React.Component {
             </li>
             <li className="uk-open">
               <span className="uk-accordion-title" href="#">              
-                <span className="bz-section-title bz-title-oddities">Oddities</span>
+                <span className="bz-section-title bz-color-oddities">Oddities</span>
               </span>
               <div className="uk-accordion-content">
                 <table className="uk-table uk-table-divider bz-table">
@@ -74,7 +74,7 @@ class App extends React.Component {
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="bz-item-stockofstonks">Stock of Stonks</td>
+                      <td className="bz-color-oddities">Stock of Stonks</td>
                       <td className="bz-item-price">{this.state.items["STOCK_OF_STONKS"] ? this.state.items["STOCK_OF_STONKS"].buyPrice : 'N/A'}</td>
                       <td className="bz-item-price">{this.state.items["STOCK_OF_STONKS"] ? this.state.items["STOCK_OF_STONKS"].sellPrice : 'N/A'}</td>
                     </tr>
