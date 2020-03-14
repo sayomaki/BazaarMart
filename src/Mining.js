@@ -47,6 +47,21 @@ class Mining extends React.Component {
                 <td className="bz-item-price">{this.props.items["ENCHANTED_COAL_BLOCK"] ? this.props.items["ENCHANTED_COAL_BLOCK"].buyPrice : 'N/A'}</td>
                 <td className="bz-item-price">{this.props.items["ENCHANTED_COAL_BLOCK"] ? this.props.items["ENCHANTED_COAL_BLOCK"].sellPrice : 'N/A'}</td>
               </tr>
+              <tr>
+                <td className="bz-color-mining">Iron Ingot</td>
+                <td className="bz-item-price">{this.props.items["IRON_INGOT"] ? this.props.items["IRON_INGOT"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["IRON_INGOT"] ? this.props.items["IRON_INGOT"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-mining">Enchanted Iron</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_IRON"] ? this.props.items["ENCHANTED_IRON"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_IRON"] ? this.props.items["ENCHANTED_IRON"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-mining">Enchanted Iron Block</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_IRON_BLOCK"] ? this.props.items["ENCHANTED_IRON_BLOCK"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_IRON_BLOCK"] ? this.props.items["ENCHANTED_IRON_BLOCK"].sellPrice : 'N/A'}</td>
+              </tr>
             </tbody>
           </table>
         </div>
