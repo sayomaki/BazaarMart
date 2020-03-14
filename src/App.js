@@ -33,43 +33,43 @@ class App extends React.Component {
         <div className="bz-body uk-container uk-margin-top uk-margin-bottom">
           <ul uk-accordion="collapsible: false">
             <li>
-              <span class="uk-accordion-title" href="#">
+              <span className="uk-accordion-title" href="#">
                 <span className="bz-section-title bz-title-farming">Farming</span>
               </span>
-              <div class="uk-accordion-content">
+              <div className="uk-accordion-content">
                 <p>COMING SOON!</p>
               </div>
             </li>
             <li>
-              <span class="uk-accordion-title" href="#">
+              <span className="uk-accordion-title" href="#">
                 <span className="bz-section-title bz-title-mining">Mining</span>
               </span>
-              <div class="uk-accordion-content">
+              <div className="uk-accordion-content">
                 <p>COMING SOON!</p>
               </div>
             </li>
             <li>
-              <span class="uk-accordion-title">
+              <span className="uk-accordion-title">
                 <span className="bz-section-title bz-title-combat">Combat</span>
               </span>
-              <div class="uk-accordion-content">
+              <div className="uk-accordion-content">
                 <p>COMING SOON!</p>
               </div>
             </li>
             <li>
-              <span class="uk-accordion-title" href="#">
+              <span className="uk-accordion-title" href="#">
                 <span className="bz-section-title bz-title-woodfish">Woods & Fishes</span>
               </span>
-              <div class="uk-accordion-content">
+              <div className="uk-accordion-content">
                 <p>COMING SOON!</p>
               </div>
             </li>
-            <li class="uk-open">
-              <span class="uk-accordion-title" href="#">              
+            <li className="uk-open">
+              <span className="uk-accordion-title" href="#">              
                 <span className="bz-section-title bz-title-oddities">Oddities</span>
               </span>
-              <div class="uk-accordion-content">
-                <table class="uk-table uk-table-divider bz-table">
+              <div className="uk-accordion-content">
+                <table className="uk-table uk-table-divider bz-table">
                   <thead>
                     <tr>
                       <th>Item Name</th>
