@@ -2,6 +2,11 @@ import React from 'react';
 import Heart from './heart.svg';
 
 class Footer extends React.Component {
+  parseDate () {
+    const d = new Date(this.props.timestamp);
+    return d.toLocaleString();
+  }
+
   render () {
     return (
       <div className="bz-footer uk-position-bottom">
@@ -10,7 +15,7 @@ class Footer extends React.Component {
             Made with <span className="uk-icon uk-icon-image" style={{backgroundImage: `url(${Heart})`}}></span> by <a className="bz-author" href="https://github.com/willi123yao">willi123yao</a>
           </div>
           <div className="uk-align-right" style={{display: 'inline-block'}}>
-            Last updated: 10 March 2020 12:52 UTC
+            Last updated: {this.parseDate()}
           </div>
         </div>
       </div>
