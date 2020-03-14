@@ -10,7 +10,8 @@ class App extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
-      items: {}
+      items: {},
+      timestamp: Date.now()
     }
     this.runRoutine();
   }
@@ -20,7 +21,7 @@ class App extends React.Component {
     const res = await fetch(URL + '/bazaar/' + item, {method: 'POST'});
     const data = await res.json();
     
-    this.setState({items: {...this.state.items, "STOCK_OF_STONKS": data}});
+    this.setState({items: {...this.state.items, "STOCK_OF_STONKS": data}, timestamp: Date.now()});
     setTimeout(() => {
       this.runRoutine();
     }, 30000);
@@ -91,7 +92,7 @@ class App extends React.Component {
           </ul>
         </div>
 
-        <Footer/>
+        <Footer timestamp={this.state.timestamp}/>
       </div>
     );
   }
