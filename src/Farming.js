@@ -129,8 +129,8 @@ class Farming extends React.Component {
               </tr>
               <tr>
                 <td className="bz-color-farming">Cocoa Beans</td>
-                <td className="bz-item-price">{this.props.items["COCOA_BEANS"] ? this.props.items["COCOA_BEANS"].buyPrice : 'N/A'}</td>
-                <td className="bz-item-price">{this.props.items["COCOA_BEANS"] ? this.props.items["COCOA_BEANS"].sellPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["INK_SACK:3"] ? this.props.items["INK_SACK:3"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["INK_SACK:3"] ? this.props.items["INK_SACK:3"].sellPrice : 'N/A'}</td>
               </tr>
               <tr>
                 <td className="bz-color-farming">Enchanted Cocoa Bean</td>
