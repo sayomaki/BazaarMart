@@ -4,6 +4,7 @@ import './Font.css';
 import Header from './Header';
 import Footer from './Footer';
 import Farming from './Farming';
+import Mining from './Mining';
 
 const URL = "";
 
@@ -36,14 +37,7 @@ class App extends React.Component {
         <div className="bz-body uk-container uk-margin-top uk-margin-bottom">
           <ul uk-accordion="collapsible: false">
             <Farming items={this.state.items}/>
-            <li>
-              <span className="uk-accordion-title" href="#">
-                <span className="bz-section-title bz-color-mining">Mining</span>
-              </span>
-              <div className="uk-accordion-content">
-                <p>COMING SOON!</p>
-              </div>
-            </li>
+            <Mining items={this.state.items}/>
             <li>
               <span className="uk-accordion-title">
                 <span className="bz-section-title bz-color-combat">Combat</span>
