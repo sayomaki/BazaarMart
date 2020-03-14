@@ -92,6 +92,36 @@ class Mining extends React.Component {
                 <td className="bz-item-price">{this.props.items["ENCHANTED_DIAMOND_BLOCK"] ? this.props.items["ENCHANTED_DIAMOND_BLOCK"].buyPrice : 'N/A'}</td>
                 <td className="bz-item-price">{this.props.items["ENCHANTED_DIAMOND_BLOCK"] ? this.props.items["ENCHANTED_DIAMOND_BLOCK"].sellPrice : 'N/A'}</td>
               </tr>
+              <tr>
+                <td className="bz-color-mining">Lapis Lazuli</td>
+                <td className="bz-item-price">{this.props.items["INK_SACK:4"] ? this.props.items["INK_SACK:4"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["INK_SACK:4"] ? this.props.items["INK_SACK:4"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-mining">Enchanted Lapis Lazuli</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_LAPIS_LAZULI"] ? this.props.items["ENCHANTED_LAPIS_LAZULI"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_LAPIS_LAZULI"] ? this.props.items["ENCHANTED_LAPIS_LAZULI"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-mining">Enchanted Lapis Block</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_LAPIS_LAZULI_BLOCK"] ? this.props.items["ENCHANTED_LAPIS_LAZULI_BLOCK"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_LAPIS_LAZULI_BLOCK"] ? this.props.items["ENCHANTED_LAPIS_LAZULI_BLOCK"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-mining">Emerald</td>
+                <td className="bz-item-price">{this.props.items["EMERALD"] ? this.props.items["EMERALD"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["EMERALD"] ? this.props.items["EMERALD"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-mining">Enchanted Emerald</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_EMERALD"] ? this.props.items["ENCHANTED_EMERALD"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_EMERALD"] ? this.props.items["ENCHANTED_EMERALD"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-mining">Enchanted Emerald Block</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_EMERALD_BLOCK"] ? this.props.items["ENCHANTED_EMERALD_BLOCK"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_EMERALD_BLOCK"] ? this.props.items["ENCHANTED_EMERALD_BLOCK"].sellPrice : 'N/A'}</td>
+              </tr>
             </tbody>
           </table>
         </div>
