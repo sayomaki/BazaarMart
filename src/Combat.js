@@ -87,6 +87,56 @@ class Combat extends React.Component {
                 <td className="bz-item-price">{this.props.items["ENCHANTED_EYE_OF_ENDER"] ? this.props.items["ENCHANTED_EYE_OF_ENDER"].buyPrice : 'N/A'}</td>
                 <td className="bz-item-price">{this.props.items["ENCHANTED_EYE_OF_ENDER"] ? this.props.items["ENCHANTED_EYE_OF_ENDER"].sellPrice : 'N/A'}</td>
               </tr>
+              <tr>
+                <td className="bz-color-combat">Ghast Tear</td>
+                <td className="bz-item-price">{this.props.items["GHAST_TEAR"] ? this.props.items["GHAST_TEAR"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["GHAST_TEAR"] ? this.props.items["GHAST_TEAR"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-combat">Enchanted Ghast Tear</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_GHAST_TEAR"] ? this.props.items["ENCHANTED_GHAST_TEAR"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_GHAST_TEAR"] ? this.props.items["ENCHANTED_GHAST_TEAR"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-combat">Slimeball</td>
+                <td className="bz-item-price">{this.props.items["SLIME_BALL"] ? this.props.items["SLIME_BALL"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["SLIME_BALL"] ? this.props.items["SLIME_BALL"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-combat">Enchanted Slimeball</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_SLIME_BALL"] ? this.props.items["ENCHANTED_SLIME_BALL"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_SLIME_BALL"] ? this.props.items["ENCHANTED_SLIME_BALL"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-combat">Enchanted Slime Block</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_SLIME_BLOCK"] ? this.props.items["ENCHANTED_SLIME_BLOCK"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_SLIME_BLOCK"] ? this.props.items["ENCHANTED_SLIME_BLOCK"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-combat">Blaze Rod</td>
+                <td className="bz-item-price">{this.props.items["BLAZE_ROD"] ? this.props.items["BLAZE_ROD"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["BLAZE_ROD"] ? this.props.items["BLAZE_ROD"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-combat">Enchanted Blaze Powder</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_BLAZE_POWDER"] ? this.props.items["ENCHANTED_BLAZE_POWDER"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_BLAZE_POWDER"] ? this.props.items["ENCHANTED_BLAZE_POWDER"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-combat">Enchanted Blaze Rod</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_BLAZE_ROD"] ? this.props.items["ENCHANTED_BLAZE_ROD"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_BLAZE_ROD"] ? this.props.items["ENCHANTED_BLAZE_ROD"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-combat">Magma Cream</td>
+                <td className="bz-item-price">{this.props.items["MAGMA_CREAM"] ? this.props.items["MAGMA_CREAM"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["MAGMA_CREAM"] ? this.props.items["MAGMA_CREAM"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-combat">Enchanted Magma Cream</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_MAGMA_CREAM"] ? this.props.items["ENCHANTED_MAGMA_CREAM"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_MAGMA_CREAM"] ? this.props.items["ENCHANTED_MAGMA_CREAM"].sellPrice : 'N/A'}</td>
+              </tr>
             </tbody>
           </table>
         </div>
