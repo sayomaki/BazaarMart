@@ -9,7 +9,7 @@ class Footer extends React.Component {
 
   render () {
     return (
-      <div className="bz-footer uk-position-bottom">
+      <div className="bz-footer">
         <div className="uk-container">
           <div style={{display: 'inline-block'}}>
             Made with <span className="uk-icon uk-icon-image" style={{backgroundImage: `url(${Heart})`}}></span> by <a className="bz-author" href="https://github.com/willi123yao">willi123yao</a>
