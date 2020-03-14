@@ -52,8 +52,8 @@ function App() {
                 <thead>
                   <tr>
                     <th>Item Name</th>
-                    <th>Buy Price</th>
-                    <th>Sell Price</th>
+                    <th>Buy Price (highest)</th>
+                    <th>Sell Price (lowest)</th>
                   </tr>
                 </thead>
                 <tbody>
