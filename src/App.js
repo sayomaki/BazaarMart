@@ -5,6 +5,17 @@ import Header from './Header';
 import Footer from './Footer';
 
 class App extends React.Component {
+  constructor (props) {
+    super(props);
+    this.state = {
+      items: {}
+    }
+    this.runRoutine();
+  }
+
+  runRoutine () {
+  }
+
   render () {
     return (
       <div>
