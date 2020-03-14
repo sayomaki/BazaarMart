@@ -34,14 +34,7 @@ class App extends React.Component {
 
         <div className="bz-body uk-container uk-margin-top uk-margin-bottom">
           <ul uk-accordion="collapsible: false">
-            <li>
-              <span className="uk-accordion-title" href="#">
-                <span className="bz-section-title bz-title-farming">Farming</span>
-              </span>
-              <div className="uk-accordion-content">
-                <p>COMING SOON!</p>
-              </div>
-            </li>
+            <Farming items={this.state.items}/>
             <li>
               <span className="uk-accordion-title" href="#">
                 <span className="bz-section-title bz-title-mining">Mining</span>
