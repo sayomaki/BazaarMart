@@ -1,4 +1,7 @@
 .bz-navbar {
+  width: 100%;
+  top: 0;
+  position: fixed;
   background: linear-gradient(to left, #28a5f5, #1e87f0);
 }
 
