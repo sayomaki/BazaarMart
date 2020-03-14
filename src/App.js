@@ -71,8 +71,8 @@ class App extends React.Component {
                   <tbody>
                     <tr>
                       <td className="bz-item-stockofstonks">Stock of Stonks</td>
-                      <td className="bz-item-price">28,898 coins</td>
-                      <td className="bz-item-price">17,381 coins</td>
+                      <td className="bz-item-price">{this.state.items["STOCK_OF_STONKS"] ? this.state.items["STOCK_OF_STONKS"].buyPrice : 'N/A'}</td>
+                      <td className="bz-item-price">{this.state.items["STOCK_OF_STONKS"] ? this.state.items["STOCK_OF_STONKS"].sellPrice : 'N/A'}</td>
                     </tr>
                   </tbody>
                 </table>
