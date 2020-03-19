@@ -48,6 +48,26 @@ class Oddities extends React.Component {
                 <td className="bz-item-price">{this.props.items["GOLDEN_TOOTH"] ? this.props.items["GOLDEN_TOOTH"].sellPrice : 'N/A'}</td>
               </tr>
               <tr>
+                <td className="bz-color-oddities">Hot Potato Book</td>
+                <td className="bz-item-price">{this.props.items["HOT_POTATO_BOOK"] ? this.props.items["HOT_POTATO_BOOK"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["HOT_POTATO_BOOK"] ? this.props.items["HOT_POTATO_BOOK"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-oddities">Compactor</td>
+                <td className="bz-item-price">{this.props.items["COMPACTOR"] ? this.props.items["COMPACTOR"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["COMPACTOR"] ? this.props.items["COMPACTOR"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-oddities">Super Compactor 3000</td>
+                <td className="bz-item-price">{this.props.items["SUPER_COMPACTOR_3000"] ? this.props.items["SUPER_COMPACTOR_3000"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["SUPER_COMPACTOR_3000"] ? this.props.items["SUPER_COMPACTOR_3000"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-oddities">Summoning Eye</td>
+                <td className="bz-item-price">{this.props.items["SUMMONING_EYE"] ? this.props.items["SUMMONING_EYE"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["SUMMONING_EYE"] ? this.props.items["SUMMONING_EYE"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
                 <td className="bz-color-oddities">Stock of Stonks</td>
                 <td className="bz-item-price">{this.props.items["STOCK_OF_STONKS"] ? this.props.items["STOCK_OF_STONKS"].buyPrice : 'N/A'}</td>
                 <td className="bz-item-price">{this.props.items["STOCK_OF_STONKS"] ? this.props.items["STOCK_OF_STONKS"].sellPrice : 'N/A'}</td>
