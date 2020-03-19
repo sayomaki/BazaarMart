@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Farming from './Farming';
 import Mining from './Mining';
 import Combat from './Combat';
+import Oddities from './Oddities';
 
 const URL = "";
 
@@ -20,11 +21,10 @@ class App extends React.Component {
   }
 
   async runRoutine () {
-    const item = "STOCK_OF_STONKS";
     const res = await fetch(URL + '/bazaar/' + item, {method: 'POST'});
     const data = await res.json();
     
-    this.setState({items: {...this.state.items, "STOCK_OF_STONKS": data}, timestamp: Date.now()});
+    this.setState({items: data, timestamp: Date.now()});
     setTimeout(() => {
       this.runRoutine();
     }, 30000);
@@ -48,29 +48,7 @@ class App extends React.Component {
                 <p>COMING SOON!</p>
               </div>
             </li>
-            <li>
-              <span className="uk-accordion-title" href="#">              
-                <span className="bz-section-title bz-color-oddities">Oddities</span>
-              </span>
-              <div className="uk-accordion-content">
-                <table className="uk-table uk-table-divider bz-table">
-                  <thead>
-                    <tr>
-                      <th>Item Name</th>
-                      <th>Buy Price (highest)</th>
-                      <th>Sell Price (lowest)</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td className="bz-color-oddities">Stock of Stonks</td>
-                      <td className="bz-item-price">{this.state.items["STOCK_OF_STONKS"] ? this.state.items["STOCK_OF_STONKS"].buyPrice : 'N/A'}</td>
-                      <td className="bz-item-price">{this.state.items["STOCK_OF_STONKS"] ? this.state.items["STOCK_OF_STONKS"].sellPrice : 'N/A'}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </li>
+            <Oddities items={this.state.items}/>
           </ul>
         </div>
 
