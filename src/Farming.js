@@ -143,6 +143,21 @@ class Farming extends React.Component {
                 <td className="bz-item-price">{this.props.items["ENCHANTED_COOKIE"] ? this.props.items["ENCHANTED_COOKIE"].sellPrice : 'N/A'}</td>
               </tr>
               <tr>
+                <td className="bz-color-farming">Cactus</td>
+                <td className="bz-item-price">{this.props.items["CACTUS"] ? this.props.items["CACTUS"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["CACTUS"] ? this.props.items["CACTUS"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Enchanted Cactus Green</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_CACTUS_GREEN"] ? this.props.items["ENCHANTED_CACTUS_GREEN"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_CACTUS_GREEN"] ? this.props.items["ENCHANTED_CACTUS_GREEN"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-farming">Enchanted Cactus</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_CACTUS"] ? this.props.items["ENCHANTED_CACTUS"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["ENCHANTED_CACTUS"] ? this.props.items["ENCHANTED_CACTUS"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
                 <td className="bz-color-farming">Sugar Cane</td>
                 <td className="bz-item-price">{this.props.items["SUGAR_CANE"] ? this.props.items["SUGAR_CANE"].buyPrice : 'N/A'}</td>
                 <td className="bz-item-price">{this.props.items["SUGAR_CANE"] ? this.props.items["SUGAR_CANE"].sellPrice : 'N/A'}</td>
