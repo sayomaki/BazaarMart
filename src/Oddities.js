@@ -68,6 +68,31 @@ class Oddities extends React.Component {
                 <td className="bz-item-price">{this.props.items["SUMMONING_EYE"] ? this.props.items["SUMMONING_EYE"].sellPrice : 'N/A'}</td>
               </tr>
               <tr>
+                <td className="bz-color-oddities">Green Candy</td>
+                <td className="bz-item-price">{this.props.items["GREEN_CANDY"] ? this.props.items["GREEN_CANDY"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["GREEN_CANDY"] ? this.props.items["GREEN_CANDY"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-oddities">Purple Candy</td>
+                <td className="bz-item-price">{this.props.items["PURPLE_CANDY"] ? this.props.items["PURPLE_CANDY"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["PURPLE_CANDY"] ? this.props.items["PURPLE_CANDY"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-oddities">White Gift</td>
+                <td className="bz-item-price">{this.props.items["WHITE_GIFT"] ? this.props.items["WHITE_GIFT"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["WHITE_GIFT"] ? this.props.items["WHITE_GIFT"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-oddities">Green Gift</td>
+                <td className="bz-item-price">{this.props.items["GREEN_GIFT"] ? this.props.items["GREEN_GIFT"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["GREEN_GIFT"] ? this.props.items["GREEN_GIFT"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
+                <td className="bz-color-oddities">Red Gift</td>
+                <td className="bz-item-price">{this.props.items["RED_GIFT"] ? this.props.items["RED_GIFT"].buyPrice : 'N/A'}</td>
+                <td className="bz-item-price">{this.props.items["RED_GIFT"] ? this.props.items["RED_GIFT"].sellPrice : 'N/A'}</td>
+              </tr>
+              <tr>
                 <td className="bz-color-oddities">Stock of Stonks</td>
                 <td className="bz-item-price">{this.props.items["STOCK_OF_STONKS"] ? this.props.items["STOCK_OF_STONKS"].buyPrice : 'N/A'}</td>
                 <td className="bz-item-price">{this.props.items["STOCK_OF_STONKS"] ? this.props.items["STOCK_OF_STONKS"].sellPrice : 'N/A'}</td>
