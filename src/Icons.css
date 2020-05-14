@@ -5,3 +5,27 @@
 .bz-icon-enchanted-bread {
   background-image: url("/assets/Enchanted_Bread.png");
 }
+
+.bz-icon-carrot {
+  background-image: url("/assets/Carrot.png");
+}
+
+.bz-icon-enchanted-carrot {
+  background-image: url("/assets/Enchanted_Carrot.png");
+}
+
+.bz-icon-enchanted-golden-carrot {
+  background-image: url("/assets/Enchanted_Golden_Carrot.png");
+}
+
+.bz-icon-potato {
+  background-image: url("/assets/Potato.png");
+}
+
+.bz-icon-enchanted-potato {
+  background-image: url("/assets/Enchanted_Potato.png");
+}
+
+.bz-icon-enchanted-baked-potato {
+  background-image: url("/assets/Enchanted_Baked_Potato.png");
+}
