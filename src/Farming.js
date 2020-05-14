@@ -1,4 +1,5 @@
 import React from 'react';
+import './Icons.css';
 
 class Farming extends React.Component {
   render () {
@@ -18,12 +19,12 @@ class Farming extends React.Component {
             </thead>
             <tbody>
               <tr>
-                <td className="bz-color-farming">Wheat</td>
+                <td className="bz-color-farming"><span className="uk-icon uk-icon-image bz-icon-wheat"></span> Wheat</td>
                 <td className="bz-item-price">{this.props.items["WHEAT"] ? this.props.items["WHEAT"].buyPrice : 'N/A'}</td>
                 <td className="bz-item-price">{this.props.items["WHEAT"] ? this.props.items["WHEAT"].sellPrice : 'N/A'}</td>
               </tr>
               <tr>
-                <td className="bz-color-farming">Enchanted Bread</td>
+                <td className="bz-color-farming"><span className="uk-icon uk-icon-image bz-icon-enchanted-bread"></span> Enchanted Bread</td>
                 <td className="bz-item-price">{this.props.items["ENCHANTED_BREAD"] ? this.props.items["ENCHANTED_BREAD"].buyPrice : 'N/A'}</td>
                 <td className="bz-item-price">{this.props.items["ENCHANTED_BREAD"] ? this.props.items["ENCHANTED_BREAD"].sellPrice : 'N/A'}</td>
               </tr>
