@@ -12,8 +12,8 @@ class Combat extends React.Component {
             <thead>
               <tr>
                 <th>Item Name</th>
-                <th>Buy Price (highest)</th>
-                <th>Sell Price (lowest)</th>
+                <th>Instant Sell Price</th>
+                <th>Instant Buy Price</th>
               </tr>
             </thead>
             <tbody>
