@@ -46,7 +46,7 @@ body {
 }
 
 .bz-footer {
-  height: 25px;
+  height: 45px;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -100,4 +100,9 @@ body {
 
 .bz-item-price {
   color: #FFAA00;
+}
+
+.bz-footer-credits {
+  font-size: 14px;
+  display: inline-block;
 }
