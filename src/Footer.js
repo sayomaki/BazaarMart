@@ -3,8 +3,19 @@ import Heart from './heart.svg';
 
 class Footer extends React.Component {
   parseDate () {
+    const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     const d = new Date(this.props.timestamp);
-    return d.toLocaleString();
+    const year = d.getFullYear();
+    const month = d.getMonth();
+    const day = d.getDay();
+    let hour = d.getHours();
+    const minutes = d.getMinutes();
+    const seconds = d.getSeconds();
+
+    const mt = hour > 12 ? 'PM' : 'AM';
+    hour = hour > 12 ? hour - 12 : hour;
+    hour = hour === 0 ? 12 : hour;
+    return `${day} ${MONTHS[month]} ${year} ${hour}:${minutes}:${seconds} ${mt}`;
   }
 
   render () {
